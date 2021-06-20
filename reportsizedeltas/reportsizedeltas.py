@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 
 def main():
-    set_verbosity(enable_verbosity=False)
+    set_verbosity(enable_verbosity=True)
 
     if "INPUT_SIZE-DELTAS-REPORTS-ARTIFACT-NAME" in os.environ:
         print("::warning::The size-deltas-report-artifact-name input is deprecated. Use the equivalent input: "
